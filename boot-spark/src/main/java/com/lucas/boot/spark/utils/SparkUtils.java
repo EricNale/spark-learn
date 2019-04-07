@@ -1,7 +1,7 @@
 package com.lucas.boot.spark.utils;
 
 import com.google.common.collect.Maps;
-import com.lucas.boot.job.MongoConnect;
+import com.lucas.boot.spark.job.MongoConnect;
 import com.lucas.boot.spark.vo.ConditionQueryVO;
 import com.lucas.boot.spark.vo.SceneQueryVO;
 import com.mongodb.BasicDBObject;

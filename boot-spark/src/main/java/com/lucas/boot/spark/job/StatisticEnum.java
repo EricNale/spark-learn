@@ -31,8 +31,8 @@ public enum StatisticEnum {
 
 
     SYNC("",
-            "mongodb://192.168.50.152:10051/sv.face_collectionlog_2",
-            "mongodb://localhost:10051/sv.face_collectionlog_2");
+            "mongodb://localhost:10051/sv.face_collectionlog_2",
+            "mongodb://localhost:10051/sv.face_collectionlog_1");
 
 
     private String match;

@@ -3,7 +3,6 @@ package com.lucas.boot.service
 import com.lucas.boot.job.StatisticEnum
 import com.lucas.boot.spark.utils.SparkUtils
 import com.mongodb.spark.MongoSpark
-import org.bson.Document
 
 /**
   * ImportData
