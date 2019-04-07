@@ -1,0 +1,14 @@
+{
+    $match: {
+        "snapshotTimel": {
+            "$gt": ${param.startTime},
+            "$lt": ${param.endTime}
+        },
+        #if(${param.sceneId})
+        "sceneId":${param.sceneId},
+        #end
+        #if(${param.collectionId})
+        "collectionId": ${param.collectionId},
+        #end
+    }
+}

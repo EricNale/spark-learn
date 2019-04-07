@@ -1,0 +1,9 @@
+{
+    $match: {
+        "_id.startTimeStr": "${param.startTimeStr}",
+        "_id.interval":"${param.interval}",
+        #if(${param.sceneId})
+        "_id.sceneId":${param.sceneId},
+        #end
+    }
+}
