@@ -1,4 +1,4 @@
-package com.lucas.boot.job;
+package com.lucas.boot.spark.job;
 
 public class MongoConnect {
     public String getHost() {
